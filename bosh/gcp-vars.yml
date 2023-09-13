@@ -6,11 +6,11 @@ private_gw: "10.0.1.1"			# Private IP Gateway
 bosh_ip: "10.0.1.6"			# Private IP
 network: "public-bosh"			# GCP Network Name
 subnetwork: "public-bosh-subnet"	# GCP Subnet Name
-tags: ["paasta-security"]		# GCP Tags
-project_id: "paasta-project"		# GCP Project ID
+tags: ["ap-security"]		        # GCP Tags
+project_id: "ap-project"		# GCP Project ID
 zone: "asia-northeast1-a"		# GCP Zone
 
-# MONITORING VARIABLE(PaaS-TA Monitoring을 설치할 경우 수정)
+# MONITORING VARIABLE(K-PaaS Monitoring을 설치할 경우 수정)
 metric_url: "10.0.161.101"          # influxdb IP
 syslog_address: "10.0.121.100"      # td-agent IP
 syslog_port: "2514"                 # td-agent Port

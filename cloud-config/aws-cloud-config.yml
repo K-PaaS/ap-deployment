@@ -73,7 +73,7 @@ networks:
   subnets:
   - az: z1
     cloud_properties:
-      security_groups: paasta-v50-security
+      security_groups: ap-v50-security
       subnet: subnet-XXXXXXXXXXXXXXXXX
     dns:
     - 8.8.8.8
@@ -85,7 +85,7 @@ networks:
     - 10.0.1.10 - 10.0.1.120
   - az: z2
     cloud_properties:
-      security_groups: paasta-v50-security
+      security_groups: ap-v50-security
       subnet: subnet-XXXXXXXXXXXXXXXXX
     dns:
     - 8.8.8.8
@@ -97,7 +97,7 @@ networks:
     - 10.1.41.10 - 10.1.41.120
   - az: z3
     cloud_properties:
-      security_groups: paasta-v50-security
+      security_groups: ap-v50-security
       subnet: subnet-XXXXXXXXXXXXXXXXX
     dns:
     - 8.8.8.8
@@ -109,7 +109,7 @@ networks:
     - 10.2.81.10 - 10.2.81.120
   - az: z4
     cloud_properties:
-      security_groups: paasta-v50-security
+      security_groups: ap-v50-security
       subnet: subnet-XXXXXXXXXXXXXXXXX
     dns:
     - 8.8.8.8
@@ -121,7 +121,7 @@ networks:
     - 10.3.121.10 - 10.3.121.120
   - az: z5
     cloud_properties:
-      security_groups: paasta-v50-security
+      security_groups: ap-v50-security
       subnet: subnet-XXXXXXXXXXXXXXXXX
     dns:
     - 8.8.8.8
@@ -133,7 +133,7 @@ networks:
     - 10.4.161.10 - 10.4.161.120
   - az: z6
     cloud_properties:
-      security_groups: paasta-v50-security
+      security_groups: ap-v50-security
       subnet: subnet-XXXXXXXXXXXXXXXXX
     dns:
     - 8.8.8.8
@@ -145,7 +145,7 @@ networks:
     - 10.5.201.10 - 10.5.201.120
   - az: z7
     cloud_properties:
-      security_groups: paasta-v50-security
+      security_groups: ap-v50-security
       subnet: subnet-XXXXXXXXXXXXXXXXX
     dns:
     - 8.8.8.8
@@ -163,9 +163,9 @@ networks:
 properties:
   aws:
     access_key_id: "XXXXXXXXXXXXXXXXXXX"
-    default_key_name: aws-paasta-rnd-v50-inception.pem
+    default_key_name: aws-ap-v50-inception.pem
     default_security_groups:
-    - paasta-v50-security
+    - ap-v50-security
     region: ap-northeast-2
     secret_access_key: "XXXXXXXXXXXXXXXXXXXXXX"
 

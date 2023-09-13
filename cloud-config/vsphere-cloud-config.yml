@@ -4,49 +4,49 @@ azs:
     datacenters:
     - clusters:
       - BD-HA:
-          resource_pool: BOSH2_PAASTA_40_Pools
+          resource_pool: BOSH2_AP_40_Pools
       name: BD-HA
 - name: z2
   cloud_properties:
     datacenters:
     - clusters:
       - BD-HA:
-          resource_pool: BOSH2_PAASTA_40_Pools
+          resource_pool: BOSH2_AP_40_Pools
       name: BD-HA
 - name: z3
   cloud_properties:
     datacenters:
     - clusters:
       - BD-HA:
-          resource_pool: BOSH2_PAASTA_40_Pools
+          resource_pool: BOSH2_AP_40_Pools
       name: BD-HA
 - name: z4
   cloud_properties:
     datacenters:
     - clusters:
       - BD-HA:
-          resource_pool: BOSH2_PAASTA_40_Pools
+          resource_pool: BOSH2_AP_40_Pools
       name: BD-HA
 - name: z5
   cloud_properties:
     datacenters:
     - clusters:
       - BD-HA:
-          resource_pool: BOSH2_PAASTA_40_Pools
+          resource_pool: BOSH2_AP_40_Pools
       name: BD-HA
 - name: z6
   cloud_properties:
     datacenters:
     - clusters:
       - BD-HA:
-          resource_pool: BOSH2_PAASTA_40_Pools
+          resource_pool: BOSH2_AP_40_Pools
       name: BD-HA
 - name: z7
   cloud_properties:
     datacenters:
     - clusters:
       - BD-HA:
-          resource_pool: BOSH2_PAASTA_40_Pools
+          resource_pool: BOSH2_AP_40_Pools
       name: BD-HA
 
 vm_types:

@@ -149,10 +149,10 @@ networks:
   - az: z1
     cloud_properties:
       name: random
-      network_name: paasta-v50-vpc
-      subnetwork_name: paasta-v50-private-subnet-1
+      network_name: ap-v50-vpc
+      subnetwork_name: ap-v50-private-subnet-1
       ephemeral_external_ip: false
-      tags: [paasta-v50-security]
+      tags: [ap-v50-security]
     dns:
     - 8.8.8.8
     gateway: 10.0.1.1
@@ -164,10 +164,10 @@ networks:
   - az: z2
     cloud_properties:
       name: random
-      network_name: paasta-v50-vpc
-      subnetwork_name: paasta-v50-private-subnet-2
+      network_name: ap-v50-vpc
+      subnetwork_name: ap-v50-private-subnet-2
       ephemeral_external_ip: false
-      tags: [paasta-v50-security]
+      tags: [ap-v50-security]
     dns:
     - 8.8.8.8
     gateway: 10.0.41.1
@@ -179,10 +179,10 @@ networks:
   - az: z3
     cloud_properties:
       name: random
-      network_name: paasta-v50-vpc
-      subnetwork_name: paasta-v50-private-subnet-3
+      network_name: ap-v50-vpc
+      subnetwork_name: ap-v50-private-subnet-3
       ephemeral_external_ip: false
-      tags: [paasta-v50-security]
+      tags: [ap-v50-security]
     dns:
     - 8.8.8.8
     gateway: 10.0.81.1
@@ -194,10 +194,10 @@ networks:
   - az: z4
     cloud_properties:
       name: random
-      network_name: paasta-v50-vpc
-      subnetwork_name: paasta-v50-private-subnet-4
+      network_name: ap-v50-vpc
+      subnetwork_name: ap-v50-private-subnet-4
       ephemeral_external_ip: false
-      tags: [paasta-v50-security]
+      tags: [ap-v50-security]
     dns:
     - 8.8.8.8
     gateway: 10.0.121.1
@@ -209,10 +209,10 @@ networks:
   - az: z5
     cloud_properties:
       name: random
-      network_name: paasta-v50-vpc
-      subnetwork_name: paasta-v50-private-subnet-5
+      network_name: ap-v50-vpc
+      subnetwork_name: ap-v50-private-subnet-5
       ephemeral_external_ip: false
-      tags: [paasta-v50-security]
+      tags: [ap-v50-security]
     dns:
     - 8.8.8.8
     gateway: 10.0.161.1
@@ -224,10 +224,10 @@ networks:
   - az: z6
     cloud_properties:
       name: random
-      network_name: paasta-v50-vpc
-      subnetwork_name: paasta-v50-private-subnet-6
+      network_name: ap-v50-vpc
+      subnetwork_name: ap-v50-private-subnet-6
       ephemeral_external_ip: false
-      tags: [paasta-v50-security]
+      tags: [ap-v50-security]
     dns:
     - 8.8.8.8
     gateway: 10.0.201.1
@@ -239,10 +239,10 @@ networks:
   - az: z7
     cloud_properties:
       name: random
-      network_name: paasta-v50-vpc
-      subnetwork_name: paasta-v50-public-subnet
+      network_name: ap-v50-vpc
+      subnetwork_name: ap-v50-public-subnet
       ephemeral_external_ip: false
-      tags: [paasta-v50-security]
+      tags: [ap-v50-security]
     dns:
     - 8.8.8.8
     gateway: 10.0.0.1

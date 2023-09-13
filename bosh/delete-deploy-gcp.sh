@@ -8,5 +8,5 @@ bosh delete-env bosh.yml \
 	-o credhub.yml  \
 	-o jumpbox-user.yml  \
         -o cce.yml \
-	--var-file gcp_credentials_json=~/.ssh/paasta-project.json \
+	--var-file gcp_credentials_json=~/.ssh/ap-project.json \
 	-l gcp-vars.yml
