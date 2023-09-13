@@ -128,9 +128,9 @@ networks:
   - az: z1
     cloud_properties:
       name: random
-      virtual_network_name: paasta-v50-bosh-net
-      subnet_name: paasta-v50-private-subnet-1
-      security_group: paasta-v50-nsg
+      virtual_network_name: ap-v50-bosh-net
+      subnet_name: ap-v50-private-subnet-1
+      security_group: ap-v50-nsg
     dns:
     - 8.8.8.8
     gateway: 10.0.1.1
@@ -142,9 +142,9 @@ networks:
   - az: z2
     cloud_properties:
       name: random
-      virtual_network_name: paasta-v50-bosh-net
-      subnet_name: paasta-v50-private-subnet-2
-      security_group: paasta-v50-nsg
+      virtual_network_name: ap-v50-bosh-net
+      subnet_name: ap-v50-private-subnet-2
+      security_group: ap-v50-nsg
     dns:
     - 8.8.8.8
     gateway: 10.0.41.1
@@ -156,9 +156,9 @@ networks:
   - az: z3
     cloud_properties:
       name: random
-      virtual_network_name: paasta-v50-bosh-net
-      subnet_name: paasta-v50-private-subnet-3
-      security_group: paasta-v50-nsg
+      virtual_network_name: ap-v50-bosh-net
+      subnet_name: ap-v50-private-subnet-3
+      security_group: ap-v50-nsg
     dns:
     - 8.8.8.8
     gateway: 10.0.81.1
@@ -170,9 +170,9 @@ networks:
   - az: z4
     cloud_properties:
       name: random
-      virtual_network_name: paasta-v50-bosh-net
-      subnet_name: paasta-v50-private-subnet-4
-      security_group: paasta-v50-nsg
+      virtual_network_name: ap-v50-bosh-net
+      subnet_name: ap-v50-private-subnet-4
+      security_group: ap-v50-nsg
     dns:
     - 8.8.8.8
     gateway: 10.0.121.1
@@ -184,9 +184,9 @@ networks:
   - az: z5
     cloud_properties:
       name: random
-      virtual_network_name: paasta-v50-bosh-net
-      subnet_name: paasta-v50-private-subnet-5
-      security_group: paasta-v50-nsg
+      virtual_network_name: ap-v50-bosh-net
+      subnet_name: ap-v50-private-subnet-5
+      security_group: ap-v50-nsg
     dns:
     - 8.8.8.8
     gateway: 10.0.161.1
@@ -198,9 +198,9 @@ networks:
   - az: z6
     cloud_properties:
       name: random
-      virtual_network_name: paasta-v50-bosh-net
-      subnet_name: paasta-v50-private-subnet-6
-      security_group: paasta-v50-nsg
+      virtual_network_name: ap-v50-bosh-net
+      subnet_name: ap-v50-private-subnet-6
+      security_group: ap-v50-nsg
     dns:
     - 8.8.8.8
     gateway: 10.0.201.1
@@ -212,9 +212,9 @@ networks:
   - az: z7
     cloud_properties:
       name: random
-      virtual_network_name: paasta-v50-bosh-net
-      subnet_name: paasta-v50-public-subnet
-      security_group: paasta-v50-nsg
+      virtual_network_name: ap-v50-bosh-net
+      subnet_name: ap-v50-public-subnet
+      security_group: ap-v50-nsg
     dns:
     - 8.8.8.8
     gateway: 10.0.0.1
