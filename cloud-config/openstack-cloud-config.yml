@@ -131,7 +131,7 @@ networks:
       name: random
       net_id: 657712d9-1948-4e6b-96fb-d6164a530dff
       security_groups:
-      - paasta2
+      - ap2
     dns:
     - 8.8.8.8
     gateway: 10.0.1.1
@@ -145,7 +145,7 @@ networks:
       name: random
       net_id: 657712d9-1948-4e6b-96fb-d6164a530dff
       security_groups:
-      - paasta2
+      - ap2
     dns:
     - 8.8.8.8
     gateway: 10.0.41.1
@@ -159,7 +159,7 @@ networks:
       name: random
       net_id: 657712d9-1948-4e6b-96fb-d6164a530dff
       security_groups:
-      - paasta2
+      - ap2
     dns:
     - 8.8.8.8
     gateway: 10.0.81.1
@@ -173,7 +173,7 @@ networks:
       name: random
       net_id: 657712d9-1948-4e6b-96fb-d6164a530dff
       security_groups:
-      - paasta2
+      - ap2
     dns:
     - 8.8.8.8
     gateway: 10.0.121.1
@@ -187,7 +187,7 @@ networks:
       name: random
       net_id: 657712d9-1948-4e6b-96fb-d6164a530dff
       security_groups:
-      - paasta2
+      - ap2
     dns:
     - 8.8.8.8
     gateway: 10.0.161.1
@@ -201,7 +201,7 @@ networks:
       name: random
       net_id: 657712d9-1948-4e6b-96fb-d6164a530dff
       security_groups:
-      - paasta2
+      - ap2
     dns:
     - 8.8.8.8
     gateway: 10.0.201.1
@@ -215,7 +215,7 @@ networks:
       name: random
       net_id: 657712d9-1948-4e6b-96fb-d6164a530dff
       security_groups:
-      - paasta2
+      - ap2
     dns:
     - 8.8.8.8
     gateway: 10.0.0.1
