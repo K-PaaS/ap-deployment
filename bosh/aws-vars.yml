@@ -8,12 +8,12 @@ access_key_id: "XXXXXXXXXXXXXXX"	# AWS Access Key
 secret_access_key: "XXXXXXXXXXXXX"	# AWS Secret Key
 region: "ap-northeast-2"		# AWS Region
 az: "ap-northeast-2a"			# AWS AZ Zone
-default_key_name: "aws-paasta"	# AWS Key Name
+default_key_name: "aws-ap"	        # AWS Key Name
 default_security_groups: ["bosh"]	# AWS Security-Group
-subnet_id: "paasta-subnet"		# AWS Subnet
-private_key: "~/.ssh/aws-paasta.pem"	# SSH Private Key Path
+subnet_id: "ap-subnet"		        # AWS Subnet
+private_key: "~/.ssh/aws-ap.pem"	# SSH Private Key Path
 
-# MONITORING VARIABLE(PaaS-TA Monitoring을 설치할 경우 수정)
+# MONITORING VARIABLE(K-PaaS Monitoring을 설치할 경우 수정)
 metric_url: "10.0.161.101"          # influxdb IP
 syslog_address: "10.0.121.100"      # td-agent IP
 syslog_port: "2514"                 # td-agent Port

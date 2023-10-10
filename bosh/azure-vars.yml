@@ -4,17 +4,17 @@ private_cidr: "10.0.1.0/24"				# Private IP Range
 private_gw: "10.0.1.1"					# Private IP Gateway
 bosh_ip: "10.0.1.6"					# Private IP
 director_name: "micro-bosh"				# BOSH Director Name
-vnet_name: "paasta-bosh-net"				# Azure VNet Name
-subnet_name: "paasta-subnet"				# Azure VNet Subnet Name
+vnet_name: "ap-bosh-net"				# Azure VNet Name
+subnet_name: "ap-subnet"				# Azure VNet Subnet Name
 subscription_id: "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"	# Azure Subscription ID
 tenant_id: "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"	# Azure Tenant ID
 client_id: "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"	# Azure Client ID
 client_secret: "client-secret"				# Azure Client Secret
-resource_group_name: "paasta-bosh-group"		# Azure Resource Group
-storage_account_name: "paasta-store"			# Azure Storage Account
-default_security_group: "paasta-security"		# Azure Security Group
+resource_group_name: "ap-bosh-group"		        # Azure Resource Group
+storage_account_name: "ap-store"			# Azure Storage Account
+default_security_group: "ap-security"	        	# Azure Security Group
 
-# MONITORING VARIABLE(PaaS-TA Monitoring을 설치할 경우 수정)
+# MONITORING VARIABLE(K-PaaS Monitoring을 설치할 경우 수정)
 metric_url: "10.0.161.101"          # influxdb IP
 syslog_address: "10.0.121.100"      # td-agent IP
 syslog_port: "2514"                 # td-agent Port
