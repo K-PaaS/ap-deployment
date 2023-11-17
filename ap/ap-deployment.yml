@@ -2225,7 +2225,7 @@ variables:
 - name: log_cache_ca
   type: certificate
   options:
-    common_name: log-cache
+    common_name: logcacheCA
     is_ca: true
 - name: log_cache
   type: certificate
