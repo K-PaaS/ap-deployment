@@ -99,9 +99,9 @@
   path: /releases/name=uaa
   value:
     name: uaa
-    sha1: fe82ebf304451d1144db6cc2c9246e07a2fbaf6b
-    url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=76.18.0
-    version: 76.18.0
+    sha1: 1d4ef0ef9d033cdc88a271d7c149ce6364b1d595
+    url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=76.25.0
+    version: 76.25.0
 
 # CCE - Release replace
 - type: replace
