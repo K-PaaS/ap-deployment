@@ -1,6 +1,6 @@
 ---
 name: ap
-manifest_version: v5.8.8.1
+manifest_version: v5.8.9
 update:
   canaries: 1
   canary_watch_time: 30000-1200000
@@ -2289,7 +2289,7 @@ variables:
 - name: log_cache_ca
   type: certificate
   options:
-    common_name: log-cache
+    common_name: logcacheCA
     is_ca: true
 - name: log_cache
   type: certificate
