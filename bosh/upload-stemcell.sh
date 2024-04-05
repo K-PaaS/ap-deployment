@@ -1,5 +1,5 @@
 #!/bin/bash
-JAMMY_STEMCELL_VERSION=1.260
+JAMMY_STEMCELL_VERSION=1.390
 CURRENT_IAAS="${CURRENT_IAAS}"                                   # IaaS Information (K-PaaS에서 제공되는 create-bosh-login.sh 미 사용시 aws/azure/gcp/openstack/vsphere/bosh-lite 입력)
 BOSH_ENVIRONMENT="${BOSH_ENVIRONMENT}"                   # bosh director alias name (K-PaaS에서 제공되는 create-bosh-login.sh 미 사용시 bosh envs에서 이름을 확인하여 입력)
 
