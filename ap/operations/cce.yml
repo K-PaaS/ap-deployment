@@ -11,9 +11,9 @@
   path: /releases/name=postgres?
   value:
     name: postgres
-    sha1: 3c7cb9ae5fbcd81263210b1b4d381da0e5bfe032
-    url:  https://nextcloud.k-paas.org/index.php/s/95SqQacJtFcRNKg/download
-    version: 44-K-PaaS-v2
+    sha1: 72a9936a83670d70ef369b992d9707fc626e6946
+    url: https://nextcloud.k-paas.org/index.php/s/B6RxFBXTff8ax7Z/download
+    version: 44-K-PaaS-v3
 
 # CCE - UAA tomcat patch
 - type: replace
@@ -99,9 +99,9 @@
   path: /releases/name=uaa
   value:
     name: uaa
-    sha1: 1d4ef0ef9d033cdc88a271d7c149ce6364b1d595
-    url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=76.25.0
-    version: 76.25.0
+    sha1: d64eca4aa5ec5d17f0351970c4f8fcbed279483c
+    url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=76.26.0
+    version: 76.26.0
 
 # CCE - Release replace
 - type: replace
