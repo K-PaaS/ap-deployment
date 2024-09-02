@@ -80,9 +80,9 @@
   path: /releases/name=bosh?
   value:
     name: bosh
-    sha1: d00e68d0e344feade83621f30ad37761a711f3a1
-    url: https://nextcloud.k-paas.org/index.php/s/r37pKkC2eA8AnEq/download
-    version: 273.0.0-K-PaaS-v4
+    sha1: 342ed586a0abaddeeaef646c0a29888fe4fd90ea
+    url: https://nextcloud.k-paas.org/index.php/s/EtDw48rAKj8xGLB/download
+    version: 273.0.0-K-PaaS-v5
 
 - type: replace
   path: /releases/name=credhub?
@@ -96,9 +96,9 @@
   path: /releases/name=uaa?
   value:
     name: uaa
-    sha1: d64eca4aa5ec5d17f0351970c4f8fcbed279483c
-    url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=76.26.0
-    version: 76.26.0
+    sha1: fe87d8a5652fa0876576cb93340a0149b4aa8cfe
+    url: https://bosh.io/d/github.com/cloudfoundry/uaa-release?v=77.15.0
+    version: 77.15.0
 
 - type: replace
   path: /instance_groups/name=bosh/properties/postgres/cce_enable?
