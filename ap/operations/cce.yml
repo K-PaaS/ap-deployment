@@ -11,9 +11,9 @@
   path: /releases/name=postgres?
   value:
     name: postgres
-    sha1: 72a9936a83670d70ef369b992d9707fc626e6946
-    url: https://nextcloud.k-paas.org/index.php/s/B6RxFBXTff8ax7Z/download
-    version: 44-K-PaaS-v3
+    sha1: c00282991b51ca0b3a7399c1c96fb18eff907659
+    url: https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=52
+    version: 52
 
 # CCE - UAA tomcat patch
 - type: replace
