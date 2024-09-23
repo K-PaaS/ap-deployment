@@ -15,11 +15,6 @@
     url: https://bosh.io/d/github.com/cloudfoundry/postgres-release?v=52
     version: 52
 
-# CCE - postgres version fix
-- type: replace
-  path: /instance_groups/name=database/jobs/name=postgres/properties/databases/version?
-  value: 13
-
 # CCE - UAA tomcat patch
 - type: replace
   path: /instance_groups/name=uaa/jobs/-
