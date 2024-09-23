@@ -1,6 +1,6 @@
 ---
 name: ap
-manifest_version: v5.8.10
+manifest_version: v5.8.11
 update:
   canaries: 1
   canary_watch_time: 30000-1200000
